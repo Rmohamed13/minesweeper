@@ -1,8 +1,27 @@
-.App {
-  text-align: center;
+#root {
+  background-image: url('https://external-preview.redd.it/GqR7zVWBfT9OcarJe4_F3kzHCXaRtVcJYKTQB5OFfsg.jpg?auto=webp&s=4dad6d455b171d9678a4cd585ccb17ecd9c61108');
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  font-family: 'BentonSans, Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;  
+
 }
 
-.App-logo {
+.title {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.App {
+  text-align: center;
+  justify-content: center;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +54,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
